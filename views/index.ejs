@@ -1,0 +1,24 @@
+<html><head><h1>Fake Thermostat</h1></head><body>
+
+<title>FakeStat</title>
+<h2> <%= temp %> </h2>
+<form method="POST" action="/up">
+<button type="submit">Up</button>
+</form>
+<form method="POST" action="/down">
+<button type="submit">Down</button>
+</form>
+<form method="DELETE" action="/reset">
+<button type="submit">Reset</button>
+</form>
+<form method="POST" action="/xpsm">
+<button type="submit">PSM off</button>
+</form>
+<form method="POST" action="/psm">
+<button type="submit">PSM on</button>
+</form>
+<form method="get" action="/usage">
+<button type="submit">Check Usage</button>
+</form>
+</body>
+</html>
